@@ -1,0 +1,6 @@
+Environment:-
+Environment depend on the type of out app whether we are creating it with the basic react app or with the 
+help of vite cause to export the react app environment we need to write 
+console.log(process.env.REACT_APP_APPWRITE_URL) in App.js file and then copy the url from console 
+and if we create the react app through vite we will write "import.meta.env.vite_appwrite_url" instead of the above
+and also we have to write vite instead of react app
